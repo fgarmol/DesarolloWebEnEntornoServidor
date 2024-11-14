@@ -17,7 +17,7 @@ $names = array('Rock', 'Paper', 'Scissors');
 $human = isset($_POST["human"]) ? $_POST['human']+0 : -1;
 
 //$computer = 0; // Hard code the computer to rock
-// TODO: Make the computer be random
+// (TODO: Make the computer be random) //DONE
  $computer = rand(0,2);
 
 // This function takes as its input the computer and human play
@@ -25,7 +25,7 @@ $human = isset($_POST["human"]) ? $_POST['human']+0 : -1;
 // where "You" is the human being addressed by the computer
 function check($computer, $human) {
     // For now this is a rock-savant checking function
-    // TODO: Fix this
+    // (TODO: Fix this) // DONE
     
     if ( $human == $computer ) {
         return "Tie";
