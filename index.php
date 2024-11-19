@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Francisco Rubén - Broken Rock Paper Scissors</title>
+<title>f7874119</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
 <div class="container">
-<h1>Welcome to Broken Rock Paper Scissors</h1>
+<h1>Welcome to Not Broken Rock Paper Scissors</h1>
 <p><strong>Note:</strong> This sample code is only
 partially done and serves only as a starting point for the assignment.
 </p>

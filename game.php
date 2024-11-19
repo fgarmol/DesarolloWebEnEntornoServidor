@@ -17,7 +17,7 @@ $names = array('Rock', 'Paper', 'Scissors');
 $human = isset($_POST["human"]) ? $_POST['human']+0 : -1;
 
 //$computer = 0; // Hard code the computer to rock
-// (TODO: Make the computer be random) //DONE
+// TODO: Make the computer be random
  $computer = rand(0,2);
 
 // This function takes as its input the computer and human play
@@ -25,8 +25,8 @@ $human = isset($_POST["human"]) ? $_POST['human']+0 : -1;
 // where "You" is the human being addressed by the computer
 function check($computer, $human) {
     // For now this is a rock-savant checking function
-    // (TODO: Fix this) // DONE
-    
+    // TODO: Fix this
+
     if ( $human == $computer ) {
         return "Tie";
     } else if ( $human == 1 && $computer == 0 || $human == 2 && $computer == 1 || $human == 0 && $computer == 2 ) {
@@ -44,7 +44,7 @@ $result = check($computer, $human);
 <!DOCTYPE html>
 <html>
 <head>
-<title>Dr. Chuck's Rock, Paper, Scissors Game</title>
+<title>f7874119</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
